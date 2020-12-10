@@ -1,0 +1,832 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	font-family: 'Libre Franklin', sans-serif; 
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/* Unique Code start here */
+
+/* Header Section Code*/
+.header-section{
+	width: 100%;
+	background: url("../img/Hero.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .top-header{
+	width: 100%;
+}
+.header-section .top-header .navbar-brand img{
+	max-width: 115px;
+}
+.header-section .top-header .bg-light{
+	background: transparent !important;
+}
+.header-section .top-header .bg-light .navbar-nav .active>.nav-link{
+	color: #511de5;
+	background: url("../img/Layer 8.png") center bottom no-repeat;
+	background-size: contain;
+}
+.header-section .top-header .bg-light .navbar-nav .nav-link{
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	margin:0 15px;
+}
+.header-section .top-header .bg-light .navbar-nav .nav-link:hover, .header-section .top-header .bg-light .navbar-nav .nav-link:focus{
+	color: #511de5;
+	background: url("../img/Layer 8.png") center bottom no-repeat;
+	background-size: contain;
+}
+.header-section .top-header .inner-btn{
+	width: 100%;
+	margin: 0px 15px;
+}
+.header-section .top-header .inner-btn .btn-primary{
+	text-transform: capitalize;
+	padding: 8px 35px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #000;
+	border: none;
+	background: transparent;
+	border-radius: 20px;
+	transition: 1s;
+}
+.header-section .top-header .inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+	background: linear-gradient(45deg,#0f86fa, #511de5);
+	font-weight: 700;
+	color: #fff;
+	border-radius: 20px;
+}
+.header-section .top-header .inner-btn .btn-secondary{
+	text-transform: capitalize;
+	padding: 8px 35px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: #fff;
+	border: none;
+	background: linear-gradient(120deg,#511de5 20%, #0f86fa);
+	border-radius: 20px;
+	transition: 1s;
+}
+.header-section .top-header .inner-btn .btn-secondary:hover, .inner-btn .btn-secondary:focus{
+	background: linear-gradient(45deg,#0f86fa, #511de5);
+	font-weight: 700;
+	border-radius: 20px;
+	color: #fff;
+}
+.header-section .banner-section{
+	width: 100%;
+	padding: 130px 0px; 
+}
+.header-section .banner-section .banner-inner{
+	width: 100%;
+	padding: 60px 0px 80px; 
+}
+.header-section .banner-section .banner-inner h1{
+	color: #000;
+	font-size: 52px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	line-height: 55px;
+}
+.header-section .banner-section .banner-inner h1 span{
+	color: #511de5;
+}
+.header-section .banner-section .banner-inner .btn-primary{
+	text-transform: uppercase;
+	padding: 12px 35px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	background: #f2f2f2;
+	transition: 1s;
+	border-radius: 25px;
+	margin-top: 20px;
+}
+.header-section .banner-section .banner-inner .btn-primary:hover, .header-section .banner-section .banner-inner .btn-primary:focus{
+	color: #000;
+	background: transparent;
+	border: 1px solid #511de5;
+}
+.header-section .banner-section .btn-primary .fa{
+	margin-left: 10px;
+}
+
+/* Highlight Section Code*/
+
+.highlight-section{
+	width: 100%;
+	padding: 40px 0 32px;
+	background: url("../img/Highlight area.png") center top no-repeat;
+	background-size: cover;
+}
+.inner-img{
+	width: 100%;
+	position: relative;
+}
+.inner-img img{
+	position: absolute;
+	top: -100px;
+	left: 0;
+}
+.inner-text{
+	width: 55%;
+	color: #fff;
+	margin: 0 auto;
+}
+.inner-text h3{
+	font-size: 24px;
+	line-height: 34px;
+}
+
+/* Feature Section Starts*/
+.feature-section{
+	width: 100%;
+	padding: 80px 0 10px;
+}
+.feature-section .inner-feature{
+	width: 100%;
+	background: url("../img/bg1.png") bottom center no-repeat;
+	background-size: cover;
+	padding: 80px;
+	box-shadow: 1px 3px 10px #ccc;
+}
+.feature-section .inner-feature h2{
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 40px;
+	margin-bottom: 25px;
+}
+.feature-section .inner-feature p{
+	font-size: 14px;
+	color: #000;
+	line-height: 24px;
+	margin-bottom: 60px;
+}
+.feature-section .inner-feature p .percent{
+	font-size: 60px;
+	font-weight: 900;
+	margin-right: 10px;
+	background: linear-gradient(45deg, #511de5, #0f86fa);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+.feature-section .inner-feature p .product{
+	font-size: 14px;
+	font-weight: 700;
+}
+.client-image{
+	width: 100%;
+	padding-top: 60px;
+}
+/*  into-quote section */
+.into-quote{
+	width: 100%;
+	padding: 140px 0px;
+	background: url("../img/Rectangle 8.png") center top no-repeat;
+	background-size: cover;
+}
+.into-quote .quote-inner{
+	width: 100%;
+	padding: 92px 30px;
+	margin: 70px 0;
+	background: url("../img/Quote.png") center top no-repeat;
+	background-size: contain;
+}
+.into-quote .quote-inner .test{
+	width: 80%;
+	padding: 28px;
+	margin: 0 auto;
+}
+.into-quote .quote-inner .test p{
+	font-size: 14px;
+	color: #fff;
+	margin: 20px 0px 20px 28px;
+}
+.into-quote .quote-inner .test h4{
+	font-size: 14px;
+	color: #fff;
+	margin: 10px 0px 20px 28px;
+}
+.into-quote .inner-content{
+	width: 100%;
+	padding: 150px 0 150px 10px;
+}
+.into-quote .inner-content h2{
+	color: #000;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	line-height: 55px;
+}
+.into-quote .inner-content .btn-primary{
+	text-transform: uppercase;
+	padding: 12px 35px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #000;
+	border: 1px solid #f2f2f2;
+	background: #fff;
+	transition: 1s;
+	border-radius: 25px;
+	margin-top: 20px;
+}
+.into-quote .inner-content .btn-primary:hover, .into-quote .inner-content .btn-primary:focus{
+	color: #000;
+	background: #f2f2f2;
+	border: 1px solid #f2f2f2;
+}
+.into-quote .inner-content .btn-primary .fa{
+	margin-left: 10px;
+}
+/* Efficiency Section code*/
+.efficiency-section{
+	width: 100%;
+	padding: 20px 0 80px;
+}
+.efficiency-section .content{
+	width: 100%;
+	margin-left: 5px;
+	margin-top: 70px;
+}
+.efficiency-section .content h2{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+.efficiency-section .content p{
+	font-size: 14px;
+	color: #000;
+	font-weight: 400;
+}
+.efficiency-section .content .chart{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	margin-top: 40px;
+}
+.efficiency-section .content .chart span{
+	margin-left: 15px;
+}
+.efficiency-section .content .cloud{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	margin-bottom: 40px;
+}
+.efficiency-section .content .cloud span{
+	margin-left: 15px;
+}
+.efficiency-section .content .btn-primary{
+	text-transform: uppercase;
+	padding: 8px 35px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: #fff;
+	border: none;
+	background: linear-gradient(120deg,#511de5 20%, #0f86fa);
+	border-radius: 20px;
+	transition: 1s;
+}
+.efficiency-section .content .btn-primary:hover, .efficiency-section .content .btn-primary:focus{
+	background: linear-gradient(45deg,#0f86fa, #511de5);
+	font-weight: 700;
+	border-radius: 20px;
+	color: #fff;
+}
+.efficiency-section .content .btn-primary .fa{
+	margin-left: 10px;
+}
+
+/* design section code*/
+.design-section{
+	width: 100%;
+	padding: 80px 0 40px;
+	background: #fcfcfc;
+}
+.design-section .content{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.design-section .content h2{
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 40px;
+	text-transform: none;
+	margin-bottom: 25px;
+}
+.design-section .content-vl{
+	width: 100%;
+	margin: 35px 0 10px;
+	border-right: 1px solid #f2f2f2;
+}
+.design-section .content-vl2{
+	width: 100%;
+	margin: 35px 0 10px;
+}
+.design-section .content-vl h4{
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 32px;
+	text-transform: capitalize;
+	margin-bottom: 18px;
+	margin-top: 18px;
+}
+.design-section .content-vl p{
+	font-size: 14px;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+.design-section .content-vl2 h4{
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 32px;
+	text-transform: capitalize;
+	margin-bottom: 18px;
+	margin-top: 18px;
+}
+.design-section .content-vl2 p{
+	font-size: 14px;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+
+
+/***********************************************************************************/
+     /**** Media Queries Code Here****/
+/***********************************************************************************/
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) { 
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+	/******media code for mobile******/
+	.header-section .banner-section{
+		padding: 20px 0px; 
+	}
+	.header-section .banner-section .banner-inner{
+		padding: 6px 0px 60px; 
+	}
+	.header-section .banner-section .banner-inner h1{
+		color: #000;
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		line-height: 35px;
+		/*text-align: center;*/
+	}
+	.header-section .banner-section .banner-inner .inner-btn{
+		
+	}
+	.header-section .top-header .bg-light .navbar-nav .active>.nav-link{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .bg-light .navbar-nav .nav-link:hover, .header-section .top-header .bg-light .navbar-nav .nav-link:focus{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .inner-btn .btn-primary{
+		display: block;
+		text-align: left;
+		margin: 5px 0px;
+		width: 125px;
+		color: #fff;
+		background: linear-gradient(120deg,#511de5 20%, #0f86fa);
+	}
+	.feature-section .inner-feature{
+		padding: 40px 22px 20px;
+		box-shadow: 1px 3px 10px #ccc;
+	}
+	.feature-section .inner-feature h2{
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+	.inner-img{
+		width: 100%;
+		position: relative;
+	}
+	.inner-img img{
+		width: 50%;
+		position: absolute;
+		top: -100px;
+		left: -67px;
+	}
+	.into-quote{
+		padding: 100px 0px 20px;
+	}
+	.into-quote .quote-inner{
+		width: 100%;
+		padding: 24px 23px;
+		margin: 70px 0 18px;
+	}
+	.into-quote .inner-content{
+		padding: 30px 0 70px 10px;
+	}
+	.into-quote .inner-content h2{
+		font-size: 30px;
+		margin-bottom: 10px;
+		line-height: 30px;
+		margin-top: 60px;
+	}
+	.into-quote .inner-content .btn-primary{
+		font-size: 12px;
+		color: #000;
+		background: #f2f2f2;
+		border: 1px solid #511de5;
+	}
+	.into-quote .inner-content .btn-primary:hover, .into-quote .inner-content .btn-primary:focus{
+		color: #000;
+		background: #511de5;
+		border: 1px solid #f2f2f2;
+	}
+	.efficiency-section{
+		padding: 20px 0 40px;
+	}
+	.efficiency-section .content{
+		margin-left: 5px;
+		margin-top: 2px;
+	}
+	.efficiency-section .content h2{
+		font-size: 30px;
+	}
+	.efficiency-section .content .chart span{
+		font-size: 14px;
+	}
+	.efficiency-section .content .cloud span{
+		font-size: 14px;
+	}
+	.design-section .content h2{
+		font-size: 30px;
+	}
+	.design-section .content-vl{
+		border-bottom: 1px solid #f2f2f2;
+		border-right: none;
+	}
+	/*******media code for mobile********/
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {  
+	/******media code for mobile******/
+	.header-section .banner-section{
+		padding: 20px 0px; 
+	}
+	.header-section .banner-section .banner-inner{
+		padding: 6px 0px 60px; 
+	}
+	.header-section .banner-section .banner-inner h1{
+		color: #000;
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		line-height: 35px;
+		/*text-align: center;*/
+	}
+	.header-section .banner-section .banner-inner .inner-btn{
+		
+	}
+	.header-section .top-header .bg-light .navbar-nav .active>.nav-link{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .bg-light .navbar-nav .nav-link:hover, .header-section .top-header .bg-light .navbar-nav .nav-link:focus{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .inner-btn .btn-primary{
+		display: block;
+		text-align: left;
+		margin: 5px 0px;
+		width: 125px;
+		color: #fff;
+		background: linear-gradient(120deg,#511de5 20%, #0f86fa);
+	}
+	.feature-section .inner-feature{
+		padding: 40px 22px 20px;
+		box-shadow: 1px 3px 10px #ccc;
+	}
+	.feature-section .inner-feature h2{
+		font-size: 26px;
+		margin-bottom: 25px;
+	}
+	.inner-img{
+		width: 100%;
+		position: relative;
+	}
+	.inner-img img{
+		width: 50%;
+		position: absolute;
+		top: -135px;
+		left: -67px;
+	}
+	.into-quote{
+		padding: 100px 0px 20px;
+	}
+	.into-quote .quote-inner{
+		width: 100%;
+		padding: 24px 23px;
+		margin: 70px 0 18px;
+	}
+	.into-quote .inner-content{
+		padding: 30px 0 70px 10px;
+	}
+	.into-quote .inner-content h2{
+		font-size: 28px;
+		margin-bottom: 10px;
+		line-height: 30px;
+	}
+	.into-quote .inner-content .btn-primary{
+		font-size: 12px;
+		color: #000;
+		background: #f2f2f2;
+		border: 1px solid #511de5;
+	}
+	.into-quote .inner-content .btn-primary:hover, .into-quote .inner-content .btn-primary:focus{
+		color: #000;
+		background: #511de5;
+		border: 1px solid #f2f2f2;
+	}
+	.efficiency-section{
+		padding: 20px 0 40px;
+	}
+	.efficiency-section .content{
+		margin-left: 5px;
+		margin-top: 2px;
+	}
+	.efficiency-section .content h2{
+		font-size: 28px;
+	}
+	.efficiency-section .content .chart span{
+		font-size: 14px;
+	}
+	.efficiency-section .content .cloud span{
+		font-size: 14px;
+	}
+	.design-section .content h2{
+		font-size: 28px;
+	}
+	.design-section .content-vl{
+		border-bottom: 1px solid #f2f2f2;
+		border-right: none;
+	}
+	/*******media code for mobile********/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	/*media code for mobile*/
+	.header-section .banner-section{
+		padding: 20px 0px; 
+	}
+	.header-section .banner-section .banner-inner{
+		padding: 6px 0px 40px; 
+	}
+	.header-section .banner-section .banner-inner h1{
+		color: #000;
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		line-height: 35px;
+		text-align: center;
+	}
+	.header-section .banner-section .banner-inner .inner-btn{
+		text-align: center;
+	}
+	.header-section .top-header .bg-light .navbar-nav .active>.nav-link{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .bg-light .navbar-nav .nav-link:hover, .header-section .top-header .bg-light .navbar-nav .nav-link:focus{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .inner-btn .btn-primary{
+		display: block;
+		text-align: left;
+		margin: 5px 0px;
+		width: 125px;
+		color: #fff;
+		background: linear-gradient(120deg,#511de5 20%, #0f86fa);
+	}
+	.feature-section .inner-feature{
+		padding: 40px 22px 20px;
+		box-shadow: 1px 3px 10px #ccc;
+	}
+	.feature-section .inner-feature h2{
+		font-size: 26px;
+		margin-bottom: 25px;
+	}
+	.inner-img{
+		width: 100%;
+		position: relative;
+	}
+	.inner-img img{
+		width: 50%;
+		position: absolute;
+		top: -83px;
+		left: -67px;
+	}
+	.into-quote{
+		padding: 100px 0px 20px;
+	}
+	.into-quote .quote-inner{
+		width: 100%;
+		padding: 24px 23px;
+		margin: 70px 0 18px;
+	}
+	.into-quote .inner-content{
+		padding: 30px 0 70px 10px;
+	}
+	.into-quote .inner-content h2{
+		font-size: 28px;
+		margin-bottom: 10px;
+		line-height: 30px;
+	}
+	.into-quote .inner-content .btn-primary{
+		font-size: 12px;
+		color: #000;
+		background: #f2f2f2;
+		border: 1px solid #511de5;
+	}
+	.into-quote .inner-content .btn-primary:hover, .into-quote .inner-content .btn-primary:focus{
+		color: #000;
+		background: #511de5;
+		border: 1px solid #f2f2f2;
+	}
+	.efficiency-section{
+		padding: 20px 0 40px;
+	}
+	.efficiency-section .content{
+		margin-left: 5px;
+		margin-top: 2px;
+	}
+	.efficiency-section .content h2{
+		font-size: 28px;
+	}
+	.efficiency-section .content .chart span{
+		font-size: 14px;
+	}
+	.efficiency-section .content .cloud span{
+		font-size: 14px;
+	}
+	.design-section .content h2{
+		font-size: 28px;
+	}
+	.design-section .content-vl{
+		border-bottom: 1px solid #f2f2f2;
+		border-right: none;
+	}
+
+	/*media code for mobile*/
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	/******media code for mobile******/
+	.header-section .banner-section{
+		padding: 20px 0px; 
+	}
+	.header-section .banner-section .banner-inner{
+		padding: 6px 0px; 
+	}
+	.header-section .banner-section .banner-inner h1{
+		color: #000;
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		line-height: 35px;
+		text-align: center;
+	}
+	.header-section .banner-section .banner-inner .inner-btn{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.header-section .top-header .bg-light .navbar-nav .active>.nav-link{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .bg-light .navbar-nav .nav-link:hover, .header-section .top-header .bg-light .navbar-nav .nav-link:focus{
+		background: url("../img/Layer 8.png") left bottom no-repeat;
+		background-size: auto;
+	}
+	.header-section .top-header .inner-btn .btn-primary{
+		display: block;
+		text-align: left;
+		margin: 5px 0px;
+		width: 125px;
+		color: #fff;
+		background: linear-gradient(120deg,#511de5 20%, #0f86fa);
+	}
+	.feature-section .inner-feature{
+		padding: 40px 22px 20px;
+		box-shadow: 1px 3px 10px #ccc;
+	}
+	.feature-section .inner-feature h2{
+		font-size: 26px;
+		margin-bottom: 25px;
+	}
+	.inner-img{
+		position: relative;
+	}
+	.inner-img img{
+		width: 50%;
+		position: absolute;
+		top: -70px;
+		left: 0;
+	}
+	.into-quote{
+		padding: 100px 0px 20px;
+	}
+	.into-quote .quote-inner{
+		width: 100%;
+		padding: 24px 23px;
+		margin: 70px 0 18px;
+	}
+	.into-quote .inner-content{
+		padding: 30px 0 70px 10px;
+	}
+	.into-quote .inner-content h2{
+		font-size: 28px;
+		margin-bottom: 10px;
+		line-height: 30px;
+	}
+	.into-quote .inner-content .btn-primary{
+		font-size: 12px;
+		color: #000;
+		background: #f2f2f2;
+		border: 1px solid #511de5;
+	}
+	.into-quote .inner-content .btn-primary:hover, .into-quote .inner-content .btn-primary:focus{
+		color: #000;
+		background: #511de5;
+		border: 1px solid #f2f2f2;
+	}
+	.efficiency-section{
+		padding: 20px 0 40px;
+	}
+	.efficiency-section .content{
+		margin-left: 5px;
+		margin-top: 2px;
+	}
+	.efficiency-section .content h2{
+		font-size: 28px;
+	}
+	.efficiency-section .content .chart span{
+		font-size: 14px;
+	}
+	.efficiency-section .content .cloud span{
+		font-size: 14px;
+	}
+	.design-section .content h2{
+		font-size: 28px;
+	}
+	.design-section .content-vl{
+		border-bottom: 1px solid #f2f2f2;
+		border-right: none;
+	}
+	/*******media code for mobile********/
+}
